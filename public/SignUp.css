@@ -1,0 +1,95 @@
+body{
+    margin:0;
+    padding:0;
+    font-size: large;
+    font-weight: 200;
+    background-image: url("images/NewBook.jpg");
+    background-size: cover;
+}
+
+
+.signup_main form{
+    position: absolute;
+    width:60%;
+    left:20%;
+    height:70%;
+    top:4%;
+    padding:2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10%;
+    border:solid black 2px;
+    border-radius:10px;
+}
+
+.s11{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:5%;
+    
+}
+.s12{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:0.5%;
+    
+}
+.s13{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:1.5%;
+    
+}
+.s14{
+   
+    display:flex;
+    justify-content: center;
+}
+
+.note{
+    font-size: medium;
+
+    text-align: center;
+}
+
+.s1 input{
+    height:80%;
+}
+
+p{
+    margin:0;
+    padding:0;
+}
+.ss1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.signup_button{
+    margin-left: 330px;
+    height: 8%;
+    width: 250px;
+    cursor:pointer;
+   background-color: rgb(186, 186, 212);
+
+    
+}
+
+.login_already{
+    text-align: center;
+}
+
+.heading
+{
+    display: flex;
+    font-size: 2em;
+    margin-left: 640px;
+    margin-top: 60px;
+
+}
